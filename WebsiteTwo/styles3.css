@@ -1,0 +1,58 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.place-title{
+  padding-top: 40px;
+}
+
+.info-para{
+  line-height: 1.75;
+}
+
+.img-2{
+  width: 525px;
+}
+
+.muted{
+  font-size: 15px;
+  color: #bbbbbb;
+}
+
+.muted-link{
+  color: #686d76;
+  text-decoration: none;
+}
+
+.muted-link:hover{
+  color: black;
+  transition: 1.5s;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover{
+  background-color: #e8e8e8;
+  transition: 0.5s;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 770px){
+  body{
+    text-align: center;
+  }
+  h1{
+    font-size: 40px;
+  }
+
+  .img-2 {
+    width: 300px;
+  }
+  .muted{
+    font-size: 10px;
+  }
